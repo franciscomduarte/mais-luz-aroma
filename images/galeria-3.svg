@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="875" viewBox="0 0 700 875">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E4E9DD"/>
+      <stop offset="100%" stop-color="#7C8B6F"/>
+    </linearGradient>
+    <radialGradient id="luz" cx="0.5" cy="0.42" r="0.55">
+      <stop offset="0%" stop-color="#F2DFC6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F2DFC6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="700" height="875" fill="url(#g)"/>
+  <rect width="700" height="875" fill="url(#luz)"/>
+  <g transform="translate(350.0,507.49999999999994)">
+          <rect x="-42" y="-70" width="84" height="130" rx="12" fill="#5C3A21" opacity="0.85"/>
+          <rect x="-10" y="-108" width="20" height="40" rx="4" fill="#3E2414"/>
+          <rect x="-24" y="-122" width="34" height="18" rx="6" fill="#1f1208"/>
+          <circle cx="0" cy="-5" r="26" fill="none" stroke="#C9A24B" stroke-width="2" opacity="0.8"/>
+        </g>
+  <text x="350.0" y="849" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#F8F2E7" opacity="0.85">Galeria 3 · substitua pela foto real</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="875" viewBox="0 0 700 875">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E6C49B"/>
+      <stop offset="100%" stop-color="#A0622F"/>
+    </linearGradient>
+    <radialGradient id="luz" cx="0.5" cy="0.42" r="0.55">
+      <stop offset="0%" stop-color="#F2DFC6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F2DFC6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="700" height="875" fill="url(#g)"/>
+  <rect width="700" height="875" fill="url(#luz)"/>
+  <g transform="translate(350.0,542.5)">
+          <path d="M -40 60 L -48 -25 Q -48 -45 -28 -45 L 28 -45 Q 48 -45 48 -25 L 40 60 Z" fill="#5C3A21" opacity="0.9"/>
+          <line x1="-6" y1="-45" x2="-50" y2="-135" stroke="#8C5A2E" stroke-width="5" stroke-linecap="round"/>
+          <line x1="0" y1="-45" x2="0" y2="-145" stroke="#A0622F" stroke-width="5" stroke-linecap="round"/>
+          <line x1="6" y1="-45" x2="48" y2="-130" stroke="#6B3F1D" stroke-width="5" stroke-linecap="round"/>
+          <line x1="3" y1="-45" x2="26" y2="-140" stroke="#BC7D45" stroke-width="5" stroke-linecap="round"/>
+        </g>
+  <text x="350.0" y="849" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#F8F2E7" opacity="0.85">Galeria 6 · substitua pela foto real</text>
+</svg>

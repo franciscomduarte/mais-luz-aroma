@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1125" viewBox="0 0 900 1125">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFE3D0"/>
+      <stop offset="100%" stop-color="#D49E6A"/>
+    </linearGradient>
+    <radialGradient id="luz" cx="0.5" cy="0.42" r="0.55">
+      <stop offset="0%" stop-color="#F2DFC6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F2DFC6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1125" fill="url(#g)"/>
+  <rect width="900" height="1125" fill="url(#luz)"/>
+  <g transform="translate(450.0,652.5)">
+          <rect x="-52" y="-90" width="104" height="150" rx="18" fill="#5C3A21" opacity="0.85"/>
+          <rect x="-14" y="-130" width="28" height="44" rx="6" fill="#3E2414"/>
+          <rect x="-18" y="-138" width="36" height="14" rx="5" fill="#C9A24B"/>
+          <circle cx="0" cy="-15" r="30" fill="none" stroke="#C9A24B" stroke-width="2" opacity="0.8"/>
+          <path d="M -12 -15 L 0 -32 L 12 -15 L 0 2 Z" fill="#C9A24B" opacity="0.7"/>
+        </g>
+  <text x="450.0" y="1099" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#F8F2E7" opacity="0.85">Hero · substitua pela foto real</text>
+</svg>
