@@ -4,7 +4,7 @@
 
 /* ⚠️ CONFIGURAÇÃO — edite apenas aqui */
 const CONFIG = {
-  whatsapp: "5564923233​99", // ⚠️ SUBSTITUIR: 55 + DDD + número
+  whatsapp: "556492323399", // ⚠️ SUBSTITUIR: 55 + DDD + número
   mensagemPadrao: "Olá! Vim pelo site da Mais Luz & Aroma e gostaria de um orçamento. ✨",
 };
 
