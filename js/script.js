@@ -4,7 +4,7 @@
 
 /* ⚠️ CONFIGURAÇÃO — edite apenas aqui */
 const CONFIG = {
-  whatsapp: "5585999999999", // ⚠️ SUBSTITUIR: 55 + DDD + número
+  whatsapp: "5564923233​99", // ⚠️ SUBSTITUIR: 55 + DDD + número
   mensagemPadrao: "Olá! Vim pelo site da Mais Luz & Aroma e gostaria de um orçamento. ✨",
 };
 
@@ -88,7 +88,9 @@ if (carousel && dotsWrap) {
   };
 
   const irPara = (i) => {
-    itens[i].scrollIntoView({ behavior: reduzMovimento ? "auto" : "smooth", block: "nearest", inline: "center" });
+    const item = itens[i];
+    const targetLeft = item.offsetLeft - (carousel.offsetWidth - item.offsetWidth) / 2;
+    carousel.scrollTo({ left: Math.max(0, targetLeft), behavior: reduzMovimento ? "auto" : "smooth" });
     marca(i);
   };
 
